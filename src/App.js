@@ -32,6 +32,7 @@ const App= props =>{
       <h1>hello world</h1>
       <h1>hai</h1>
       <p>this is really working</p>
+      <h2>This is Yashvanth</h2>
       <button onClick={switchNameHandler}>Switch Name</button>
     
       <Person name={personsState.persons[0].name} age={personsState.persons[0].age} />
